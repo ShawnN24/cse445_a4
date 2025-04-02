@@ -1,0 +1,42 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xs:element name="Hotels">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Hotel" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Hotel">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name" type="xs:string"/>
+				<xs:element name="Phone" type="PhoneType" maxOccurs="2"/>
+				
+				<xs:element name="Address">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Number" type="xs:integer"/>
+							<xs:element name="Street" type="xs:string"/>
+							<xs:element name="City" type="xs:string"/>
+							<xs:element name="State" type="xs:string"/>
+							<xs:element name="Zip" type="xs:integer"/>
+						</xs:sequence>
+
+						<xs:attribute name="NearstAirport" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+
+			<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="PhoneType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}\-\d{3}\-\d{4}" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+</xs:schema>
