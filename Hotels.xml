@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Hotels>
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearstAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Marriott Phoenix Chandler</Name>
+		<Phone>480-732-1600</Phone>
+		<Address NearstAirport="Chandler Municipal Airport">
+			<Number>1600</Number>
+			<Street>S. Price Rd</Street>
+			<City>Chandler</City>
+			<State>AZ</State>
+			<Zip>85286</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4">
+		<Name>Hampton Inn Queen Creek</Name>
+		<Phone>480-888-7474</Phone>
+		<Address NearstAirport="Mesa Gateway Airport">
+			<Number>20768</Number>
+			<Street>E. Maya Rd</Street>
+			<City>Queen Creek</City>
+			<State>AZ</State>
+			<Zip>85142</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Element Scottsdale at SkySong</Name>
+		<Phone>480-361-0000</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>1345</Number>
+			<Street>N. Scottsdale Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85257</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.6">
+		<Name>Drury Inn and Suites Phoenix Airport</Name>
+		<Phone>602-437-8400</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>3333</Number>
+			<Street>E. University Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.4">
+		<Name>WorldMark Phoenix - South Mountain Preserve</Name>
+		<Phone>602-386-1900</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>4647</Number>
+			<Street>E. Francisco Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>SpringHill Suites Tucson at The Bridges</Name>
+		<Phone>520-493-2233</Phone>
+		<Address NearstAirport="Tucson International Airport">
+			<Number>1705</Number>
+			<Street>N. Tucson Marketplace Blvd</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85713</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>Rise Uptown Hotel</Name>
+		<Phone>480-536-8900</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>400</Number>
+			<Street>W. Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85013</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>AC Hotel Phoenix</Name>
+		<Phone>480-642-6140</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>100</Number>
+			<Street>E. Rio Salado Pkwy</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.8">
+		<Name>Comfort Inn and Suites</Name>
+		<Phone>480-858-9898</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>808</Number>
+			<Street>N. Scottsdale Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85288</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<Name>Delta Hotels</Name>
+		<Phone>480-898-8300</Phone>
+		<Address NearstAirport="Phoenix Sky Harbor International Airport">
+			<Number>200</Number>
+			<Street>N. Centennial Way</Street>
+			<City>Mesa</City>
+			<State>AZ</State>
+			<Zip>85201</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
